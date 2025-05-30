@@ -17,4 +17,5 @@ for i in range(1, sqrtn + 1):
         cnt += 2
     elif sqrtn * sqrtn == n:
         cnt -= 1
-print(cnt)                      #=================== T(n) = sqrt(n) + 1 => O(sqrt(N))
+print(cnt)                      
+#=================== T(n) = sqrt(n) + 1 => O(sqrt(N))
