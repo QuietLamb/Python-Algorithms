@@ -28,3 +28,20 @@ S.sort(key = lambda k: (k[0], k[1]))
 print(S)         #accending (second element)
 S.sort(key = lambda k: (k[0], -k[1]))
 print(S)         #Decending (second element)
+
+#=============== Improving Code =============
+
+def solve(n, p):
+    P.sort(key = lambda x: (x[0], -x[1]))
+    for i in range(n):
+        print(" ".join(map(str, p[i])))
+
+N = int(input())
+P = [list(map(int, input().split())) for i in range(N)] 
+solve(N,P)
+
+#input example:
+# 5
+# 1 -1
+# 2 3
+# 4 -4
