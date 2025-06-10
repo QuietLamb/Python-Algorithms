@@ -6,4 +6,5 @@ def solve(n):
         if word2 not in anagram:
             print(word1)
             anagram.add(word2)
-solve(4)
+N = int(input())
+solve(N)
