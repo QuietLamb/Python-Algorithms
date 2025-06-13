@@ -7,6 +7,3 @@ def prime(N, M):
         if n == 1:
             print(i)
 prime(12, 24)
-
-
-
