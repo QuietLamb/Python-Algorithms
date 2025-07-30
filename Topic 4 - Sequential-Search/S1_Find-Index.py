@@ -15,10 +15,10 @@ X = list(map(int, input().split()))
 
 solve(N, M, S, X)
 
-# input:
-# 5 5
-# 7 3 2 4 5
-# 2 1 7 6 5
+# # input:
+# # 5 5
+# # 7 3 2 4 5
+# # 2 1 7 6 5
 
-# # output:
-# 2 -1 0 -1 4 
+# # # output:
+# # 2 -1 0 -1 4 
